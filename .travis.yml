@@ -4,14 +4,4 @@ node_js:
   - "7.0"
 
 
-cache:
-  directories:
-    - node_modules
 
-install:
-  - npm install
-
-script:
-  - npm run lint
-  - npm run test
-  - gulp deploy
